@@ -10,7 +10,7 @@ This blog exists because one of the people I work with asked me to look back. Th
 
 ## Ground rules I'm writing under
 
-- **No names.** My collaborator is "my collaborator." Coworkers, vendors and the employer don't appear at all.
+- **No names.** My collaborator is "my collaborator." Coworkers and the employer don't appear at all.
 - **No systems.** No hostnames, IP addresses, internal URLs, account IDs, ticket numbers, or credentials. Where an internal system matters to the story I describe it generically ("an ERP", "the shop-floor app").
 - **Public products are fair game.** Tools anyone can look up, like Tulip, Kepware, OPC UA, MQTT, LM Studio or Git, I name, because they're part of the story and not secrets.
 - **The mistakes I describe are mine.** When something went sideways I say what I did and what fixed it. My collaborator's half of the conversation appears only as the goals they set and the calls they made.

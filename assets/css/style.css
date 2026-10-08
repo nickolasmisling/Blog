@@ -182,3 +182,9 @@ pre code { background: none; padding: 0; }
   .post-nav { grid-template-columns: 1fr; }
   .post-nav .next { grid-column: 1; text-align: left; }
 }
+
+.list-heading {
+  font-family: var(--sans); font-size: 0.8rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--muted); margin: 0 0 0.25rem;
+}
+.more { font-family: var(--sans); font-size: 0.95rem; color: var(--muted); margin-top: 1.5rem; }
