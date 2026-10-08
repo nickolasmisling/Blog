@@ -1,0 +1,12 @@
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="site-title" href="{{ '/' | relative_url }}">
+      <span class="prompt" aria-hidden="true">&gt;_</span> {{ site.title }}
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Posts</a>
+      <a href="{{ '/logbook/' | relative_url }}"{% if page.url == '/logbook/' %} aria-current="page"{% endif %}>Logbook</a>
+      <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
+    </nav>
+  </div>
+</header>
